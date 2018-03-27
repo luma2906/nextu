@@ -28,12 +28,14 @@
 	filter:grayscale(100%);
 }
 
-@media (max-width:720px) {
+@media screen and (max-width:720px) {
 	.galeria div{
 	 width: 100%;
 	 text-align: center;
      padding: 10px;
 	}
+	
+	
 }
 
 
