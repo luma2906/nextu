@@ -1,0 +1,40 @@
+.galeria{
+	 display: flex;
+	 flex-flow:row wrap;
+}
+.galeria div{
+	 width: 30%;
+     padding: 10px;
+}
+.imgefec1{
+	-webkit-filter:blur(10px);
+	filter:blur(10px);
+}
+.imgefec2{
+	-webkit-filter:grayscale(100%);
+	filter:grayscale(100%);
+}
+.imgefec4{
+	-webkit-filter:grayscale(100%);
+	filter:grayscale(100%);
+}
+.imgefec3{
+	-webkit-filter:sepia(90%);
+	filter:sepia(90%);
+}
+
+.imgefec6{
+	-webkit-filter:grayscale(100%);
+	filter:grayscale(100%);
+}
+
+@media (max-width:720px) {
+	.galeria div{
+	 width: 100%;
+	 text-align: center;
+     padding: 10px;
+	}
+}
+
+
+
