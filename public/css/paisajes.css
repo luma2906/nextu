@@ -1,6 +1,7 @@
 .galeria{
 	 display: flex;
 	 flex-flow:row wrap;
+	 background-color:  #d5c75f;
 }
 .galeria div{
 	 width: 30%;

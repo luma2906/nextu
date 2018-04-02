@@ -1,5 +1,11 @@
 body{
 	margin: 0px;
+	font-family: 'Dancing Script', cursive;
+	background-color: black;
+}
+main{
+	width: 900px;
+	margin: 0px auto;
 }
 header{
 	background-color: #5b7989;
@@ -13,6 +19,9 @@ header label{
 	font-size: 30px;
 	padding: 20px;
 
+}
+nav{
+	width: 100%;
 }
 nav ul{
 	text-align: right;
