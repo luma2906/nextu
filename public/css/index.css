@@ -3,15 +3,19 @@ body{
 	font-family: 'Dancing Script', cursive;
 	background-color: black;
 }
-main{
+#principal{
 	width: 900px;
 	margin: 0px auto;
 }
+
+
 header{
 	background-color: #5b7989;
 	height: 100%;
 	width: 100%;
 	border-radius: 10px 10px 0px 0px;
+	animation-duration: 3s;
+  	animation-name: slidein;
 }
 header label{
 	color:white;
@@ -83,6 +87,7 @@ ul li{
 	list-style: none;
 }
 .contactenos{
+	
 	padding-right: 20px;
 
 }
@@ -93,6 +98,18 @@ ul li{
 	padding: 0px;
 }
 
+
+@keyframes slidein {
+  from {
+    margin-top: 150%;
+    width: 300%
+  }
+
+  to {
+    margin-top: -5%;
+    width: 100%;
+  }
+}
 @media (max-width:720px) {
 	.segunda{
 		flex-wrap: wrap;
@@ -102,7 +119,26 @@ ul li{
 		height: 100%;
 	}
 	footer{
+		background-color: #C6d5c5;
+		border-radius: 0px 0px 10px 10px;
+		height: 100%;
+		margin:0px;
+		padding: 20px;
 		flex-wrap: wrap;
+		margin: 0px;
+
+	}
+	.contactenos{
+		width: 100%;
+	}
+	.redes{
+		width: 100%;
+	}
+	.terminos{
+		width: 100%;
+	}
+	.info{
+		width: 100%;
 	}
 	nav ul{
 		text-align: center;
